@@ -5,14 +5,17 @@ body {
   min-height: 100vh;
   font-family: sans-serif;
   background: #030303;
+  outline: none;
 }
 label {
   position: relative;
   width: 200px;
   height: 200px;
+  outline: none;
 }
 label input {
   opacity: 0;
+  outline: none;
 }
 .check {
   position: absolute;
@@ -25,6 +28,7 @@ label input {
   box-shadow: 0 0 0 4px #090909;
   border-radius: 50%;
   transition: 0.5s;
+  outline: none;
 }
 
 input:checked ~ .check {
