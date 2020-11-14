@@ -33,6 +33,7 @@ label input {
 
 input:checked ~ .check {
   transform: rotate(125deg);
+  outline: none;
 }
 
 .check::before {
@@ -45,6 +46,7 @@ input:checked ~ .check {
   height: 160px;
   background: linear-gradient(#161616, #262626);
   border-radius: 50%;
+  outline: none;
 }
 .check::after {
   content: "";
@@ -55,17 +57,20 @@ input:checked ~ .check {
   height: 20px;
   background: #555;
   transform: rotate(118deg);
+  outline: none;
 }
 .light {
   font-weight: bold;
   font-size: 16px;
   position: absolute;
   text-transform: uppercase;
+  outline: none;
 }
 .light.off {
   top: 16px;
   left: -28px;
   color: #242424;
+  outline: none;
 }
 .light.off::before {
   content: "";
